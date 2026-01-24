@@ -81,7 +81,7 @@
       background: linear-gradient(90deg, rgba(255, 111, 72, 1) 23%, rgba(245, 63, 137, 1) 100%, rgba(240, 42, 166, 0.53) 100%);
         img{
             position: relative;
-            top: 75px;
+            top: 77px;
             right: 25px;
         }
 }
@@ -103,4 +103,125 @@
 .boxs{
     position: relative;
     display: inline-block;
+}
+.box1{
+    
+    position: absolute;
+    left: 830px;
+    bottom: 365px;
+    padding-left:24px;
+    padding-top: 14px;
+    height: 90px;
+    width:150px;
+    border-radius:15px;
+    background-color:#FFFFFF;
+    box-shadow:-0.1px 5px 15px rgb(177, 177, 177);
+      p{
+        font-size: 13px;
+        font-weight: 700;
+        color: #83869A;
+       
+    }
+    h3{
+        margin-top:6px ;
+        font-size:28px;
+        font-weight: 800;
+        color: #13183F;
+    }
+}
+
+
+.box2{
+    
+    position: absolute;
+    left: 1150px;
+    bottom: 600px;
+    padding-left:24px;
+    padding-top: 20px;
+    height: 100px;
+    width:120px;
+    border-radius:15px;
+    background-color:#FFFFFF;
+    
+      p{
+        font-size: 13px;
+        font-weight: 700;
+        color: #83869A;
+       
+    }
+    h3{
+        margin-top:6px ;
+        font-size:28px;
+        font-weight: 800;
+        color: #13183F;
+    }
+}
+.courses{
+    left: 120px;
+    bottom: 200px;
+    position:relative;
+    width: 1200px;
+    max-width: 1200px;
+    height: 756px;
+    max-height: 756px;
+    /* background-color: aqua; */
+   
+}
+.courses article:first-child{
+    position: relative;
+    background: #FF6F48;
+    background: linear-gradient(90deg, rgba(255, 111, 72, 1) 23%, rgba(240, 42, 166, 1) 70%);
+    box-shadow: none;
+    h2{
+        position: relative;
+        top: 50px;
+        left: 25px;
+        width: 230px;
+        height: 114px;
+        font-weight: 800;
+        color: #FFFFFF;
+        font-size: 30px;      
+    }
+}
+.card{
+    margin-bottom: 40px;
+    vertical-align: top;
+    margin-left: 32px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 352px;
+    height: 300px;
+    box-shadow:-0.1px 5px 15px rgb(177, 177, 177);
+    h3{
+        font-size: 22px;
+        font-weight:800 ;
+        position: relative;
+        top: 50px;
+        left: 32px;
+        color:#13183F ;
+
+
+    }
+    p{
+        position: relative;
+        top: 65px;
+        left: 32px;
+        width: 288px;
+        height: 113px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #83869A;
+    }
+    button{
+        background-color: #FFFFFF;
+        position: relative;
+        top: 70px;
+        left: 32px;
+        width: 104px;
+        height: 27px;
+        border: none;
+        color:#F74780 ;
+        font-weight: 700;
+        font-size: 18px;
+    }
 }
