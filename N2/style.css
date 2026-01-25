@@ -28,6 +28,7 @@
         width: 168px;
         border-radius: 28px;
     }
+  
 }
 .hero{
     /* display: inline-block; */
@@ -163,11 +164,11 @@
 }
 .courses{
     left: 120px;
-    bottom: 200px;
+    bottom: 115px;
     position:relative;
     width: 1200px;
     max-width: 1200px;
-    height: 756px;
+    height: auto;
     max-height: 756px;
     
    
@@ -328,4 +329,28 @@
         top:15px
     }
 
+}
+.footer{
+    height: 70px;
+    background-color:#13183F ;
+    padding-left: 160px; 
+    padding-right: 160px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        color: #FFFFFF;
+    }
+    button{
+        border: none;
+        font-weight: 700;
+        color:#FFFFFF ;
+        background: #4851FF;
+        background: linear-gradient(90deg, rgba(72, 81, 255, 1) 10%, rgba(240, 42, 166, 1) 66%);
+        height: 50px;
+        width: 160px;
+        border-radius: 28px;
+        font-weight: 700;
+    }
 }
