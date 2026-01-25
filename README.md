@@ -45,3 +45,7 @@ https://www.figma.com/design/opLphKmHq2loVdSZdqGywv/skilled-elearning-landing-pa
 - [ ] CSS სტილიზაცია ხდება კლასებით.
 - [ ] არ გვხვდება დუბლირებული ID-ები.
 - [ ] `README.md` ფაილში ჩანს ნამუშევრის სქრინშოთი.
+
+![profile card](./N1%20work/assets/preview.png.png)
+![Skilled Landing Page](./N2/assets/preview.png.png)
+
